@@ -4,10 +4,10 @@
 
     <div class="container">
         @hasrole('Admin')
-            <a href="{{ route('books.create') }}">Tambah Book</a>
+            <a href="{{ route('books.create') }}" class="btn btn-primary">Add new Book</a>
         @endhasrole
 
-        <div class="row">
+        <div class="row mt-3">
             <div class="card text-center ">
 
                 <div class="card-body">

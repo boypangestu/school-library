@@ -3,8 +3,8 @@
 @section('content')
 
     <div class="container">
-        <a href="{{ route('authors.create') }}">Tambah Author</a>
-        <div class="row">
+        <a href="{{ route('authors.create') }}" class="btn btn-primary">Add new Author</a>
+        <div class="row mt-3">
             <div class="card text-center ">
 
                 <div class="card-body">
